@@ -1,0 +1,1 @@
+GET http://localhost:8080/query?id=123&name=Cylix&id=456&name=Stephen HTTP/1.1

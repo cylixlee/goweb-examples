@@ -1,0 +1,4 @@
+## GET Test
+GET http://localhost:8080/url HTTP/1.1
+
+
