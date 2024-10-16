@@ -12,9 +12,18 @@
 
 <body>
     This is static content...
+    <br />
+
+    <label><b>application/x-www-form-urlencoded</b></label>
     <form action="/process" method="post">
         <input type="text" name="first_name" />
         <input type="text" name="last_name" />
+        <input type="submit" />
+    </form>
+    <br />
+    <label><b>multipart/form</b></label>
+    <form action="/processMultipart" method="post" enctype="multipart/form-data">
+        <input type="file" name="uploaded" />
         <input type="submit" />
     </form>
 </body>
